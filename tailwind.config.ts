@@ -26,7 +26,19 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
+				},
+				form: {
+					background: 'hsl(var(--form-background))',
+					border: 'hsl(var(--form-border))',
+					'border-focus': 'hsl(var(--form-border-focus))',
+					input: 'hsl(var(--form-input))',
+					label: 'hsl(var(--form-label))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					background: 'hsl(var(--success-background))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',

@@ -1,13 +1,18 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <main className="min-h-screen bg-background py-12 px-4">
+      <div className="container mx-auto">
+        <div className="text-center mb-12">
+          <h1 className="text-5xl font-bold mb-4 tracking-tight">Contact Us</h1>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Have a question or want to work together? We'd love to hear from you.
+          </p>
+        </div>
+        <ContactForm />
       </div>
-    </div>
+    </main>
   );
 };
 
